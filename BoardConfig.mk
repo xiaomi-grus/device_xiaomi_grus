@@ -19,5 +19,7 @@ TARGET_KERNEL_CONFIG += xiaomi/grus.config
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := proton
 
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Inherit from the proprietary version
 include vendor/xiaomi/grus/BoardConfigVendor.mk
