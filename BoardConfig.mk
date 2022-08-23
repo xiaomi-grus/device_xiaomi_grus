@@ -16,6 +16,8 @@ TARGET_SCREEN_DENSITY := 440
 
 # Kernel
 TARGET_KERNEL_CONFIG += xiaomi/grus.config
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := proton
 
 # Inherit from the proprietary version
 include vendor/xiaomi/grus/BoardConfigVendor.mk
