@@ -21,5 +21,8 @@ TARGET_KERNEL_CLANG_VERSION := proton
 
 SELINUX_IGNORE_NEVERALLOWS := true
 
+# VINTF
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Inherit from the proprietary version
 include vendor/xiaomi/grus/BoardConfigVendor.mk
