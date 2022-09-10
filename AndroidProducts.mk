@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_grus.mk
+    $(LOCAL_DIR)/xtended_grus.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_grus-user \
-    lineage_grus-userdebug \
-    lineage_grus-eng
+    xtended_grus-user \
+    xtended_grus-userdebug \
+    xtended_grus-eng
