@@ -11,6 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common xtended stuff.
 $(call inherit-product, vendor/xtended/config/common.mk)
 
+# FoD Animations
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Maintainer
+XTENDED_BUILD_MAINTAINER := G.H.O.S.T
+
+# Official
+XTENDED_BUILD_TYPE := OFFICIAL
+
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Inherit from grus device
 $(call inherit-product, device/xiaomi/grus/device.mk)
 
